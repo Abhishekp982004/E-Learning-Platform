@@ -1,0 +1,35 @@
+# --- Sensitive Information ---
+# Ignore environment files that store database credentials (user, password, host)
+.env
+*.env
+config.json
+credentials.ini
+
+# --- Database Specific ---
+# Ignore database dump files or local backups.
+# Your source .sql files (like the one you provided) SHOULD be committed.
+# This is for large backups you might create locally.
+*.dump
+*.bak
+*.sqlite
+*.sqlite3
+local_db.sql
+backup.sql
+
+# --- IDE & Editor Config ---
+# Ignore configuration files from popular editors and IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Operating System Files ---
+# Ignore macOS and Windows system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Log Files ---
+# Ignore log files that might be generated
+*.log
+logs/
